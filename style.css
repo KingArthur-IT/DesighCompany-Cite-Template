@@ -1,0 +1,64 @@
+/* ------------------ Header ------------------------ */
+*
+{
+    box-sizing: border-box;
+}
+
+.header
+{
+    width: 70%;
+    margin-top: 20px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.header__bar
+{
+    display: block;
+    position: relative;
+    height: 50px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+.header__bar__logotype
+{
+    height: 100%;
+    float: left;
+}
+
+.header__bar__menu
+{
+    float: right;
+    height: 100%;    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header__bar__menu__btn
+{
+    height: 60%;
+    margin-right: 20px;
+    background-color: rgba(202, 168, 146, 1);
+    color: white;
+    padding: 7px 15px;
+    border: 0px;
+    border-radius: 10px 0px 10px 0px;
+}
+
+.header__bar__menu__nav
+{
+    margin-right: 20px;
+}
+
+.header__bar__menu__nav__item
+{
+    text-decoration: none;
+    text-transform: uppercase;
+    color:rgba(33, 33, 33, 1);
+    margin-right: 10px;
+}
+
+
+
