@@ -12,6 +12,7 @@
     margin-right: 15%;
 }
 
+/*Nav-Bar*/
 .header__bar
 {
     display: block;
@@ -19,6 +20,7 @@
     height: 50px;
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
+    margin-bottom: 50px;
 }
 
 .header__bar__logotype
@@ -39,7 +41,7 @@
 .header__bar__menu__btn
 {
     height: 60%;
-    margin-right: 20px;
+    margin-right: 50px;
     background-color: rgba(202, 168, 146, 1);
     color: white;
     padding: 7px 15px;
@@ -60,5 +62,46 @@
     margin-right: 10px;
 }
 
+/*header__hero*/
+.header__hero
+{
+    display: block;
+    height: 400px;
+}
 
+.header__hero__info
+{
+    display: block;
+    float: left;
+    width: 40%;
+    height: 100%;
+}
 
+.header__hero__images
+{
+    position: relative;
+    float: right;
+    width: 47.5%;
+    height: 100%;
+}
+
+.header__hero__images img
+{
+    position: relative;
+    height: 95%;
+    top: 0px;    
+    z-index: 1;
+    border-radius: 30% 0% 25% 0%;
+}
+
+.header__hero__images__frame
+{
+    bottom: 0px;
+    right: 0px;
+    width: 360px;
+    height: 95%;
+    position: absolute;
+    display: block;
+    border: 2px solid rgba(202, 168, 146, 1);
+    border-radius: 30% 0% 25% 0%;
+}
