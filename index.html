@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="normolized.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style_header.css">
+    <link rel="stylesheet" href="style_slider.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
@@ -42,10 +43,50 @@
             <img src="./img/Main.jpg" alt="Main.jpg">
             <div class="header__hero__images__frame"></div>
         </div>
-        <img src="./img/Dots.jpg" class="dots">
+        <img src="./img/Dots.jpg" class="header__hero__dots">
     </div>
 </header>
 <body>
-    
+    <section class = "slider-panel">
+        <div class="slider-panel__head">
+            <div class="slider-panel__head__text">
+                <div class="slider-panel__head__text__subtitle">What we do</div>
+                <div class="slider-panel__head__text__title">Our Service</div>
+            </div>
+            <div class="slider-panel__head__btns">
+                <button class = "slider-panel__head__btns__left"><b><</b></button>
+                <button class = "slider-panel__head__btns__right"><b>></b></button>
+            </div>
+        </div>
+        <div class = "slider-panel__main">
+            <div class = "slider-panel__main__item"> 
+                <img src="./img/Design_icon.png">
+                <div class = "slider-panel__main__item__text"> 
+                    <div class="slider-panel__main__item__text__title">Interior Design</div>
+                    <div class="slider-panel__main__item_descr">Lorem ipsum dolor amet consectetur
+                        adipiscing elit sed eiusmod tempor
+                        incididunt ut labore.</div>
+                </div>
+            </div>
+            <div class = "slider-panel__main__item shoosen-item"> 
+                <img class = "shoosen-item__img" src="./img/Architecture_icon.png">
+                <div class = "slider-panel__main__item__text"> 
+                    <div class="slider-panel__main__item__text__title shoosen-item__text">Architecture</div>
+                    <div class="slider-panel__main__item_descr shoosen-item__text">Lorem ipsum dolor amet consectetur
+                        adipiscing elit sed eiusmod tempor
+                        incididunt ut labore.</div>
+                </div>
+            </div>
+            <div class = "slider-panel__main__item"> 
+                <img src="./img/Planning_icon.png">
+                <div class = "slider-panel__main__item__text"> 
+                    <div class="slider-panel__main__item__text__title">Planning</div>
+                    <div class="slider-panel__main__item_descr">Lorem ipsum dolor amet consectetur
+                        adipiscing elit sed eiusmod tempor
+                        incididunt ut labore.</div>
+                </div>
+            </div>
+        </div>
+    </section>    
 </body>
 </html>
