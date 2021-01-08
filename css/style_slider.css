@@ -1,27 +1,22 @@
 @font-face {
     font-family: 'Poppins Regular';
-    src: url('./fonts/Poppins-Regular.eot');
-    src: url('./fonts/Poppins-Regular.eot?#iefix') format('embedded-opentype'),
-    url('./fonts/Poppins-Regular.woff') format('woff'),
-    url('./fonts/Poppins-Regular.ttf') format('truetype');
+    src: url('../fonts/Poppins-Regular.eot');
+    src: url('../fonts/Poppins-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Poppins-Regular.woff') format('woff'),
+    url('../fonts/Poppins-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
     }
 
     @font-face {
         font-family: 'Poppins Medium';
-        src: url('./fonts/Poppins-Medium.eot');
-        src: url('./fonts/Poppins-Medium.eot?#iefix') format('embedded-opentype'),
-        url('./fonts/Poppins-Medium.woff') format('woff'),
-        url('./fonts/Poppins-Medium.ttf') format('truetype');
+        src: url('../fonts/Poppins-Medium.eot');
+        src: url('../fonts/Poppins-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Poppins-Medium.woff') format('woff'),
+        url('../fonts/Poppins-Medium.ttf') format('truetype');
         font-weight: normal;
         font-style: normal;
         }
-
-*
-{
-    box-sizing: border-box;
-}
 
 .slider-panel
 {
@@ -30,6 +25,7 @@
     margin-left: 15%;
     margin-right: 15%;
     font-family: 'Open Sans', sans-serif;    
+    margin-bottom: 100px;
 }
 
 .slider-panel__head
@@ -163,4 +159,13 @@
 {
     flex-direction: column;
 }
+}
+
+.slider-panel__dots
+{
+    position: absolute;
+    right: 0px;
+    width: 220px;
+    height: 100px;
+    z-index: -1;
 }

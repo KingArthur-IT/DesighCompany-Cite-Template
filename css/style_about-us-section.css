@@ -1,0 +1,197 @@
+@font-face {
+    font-family: 'Poppins Medium';
+    src: url('../fonts/Poppins-Medium.eot');
+    src: url('../fonts/Poppins-Medium.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Poppins-Medium.woff') format('woff'),
+    url('../fonts/Poppins-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+.abous-us-section
+{
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-family: 'Open Sans', sans-serif;
+    display: block;
+}
+
+/* ------ abous-us-section__main --------*/
+.abous-us-section__main
+{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 400px;
+    margin-bottom: 100px;
+}
+
+.abous-us-section__main__img
+{
+    display: block;
+    position: relative;
+    margin-right: 120px;
+    height: 400px;
+}
+
+.abous-us-section__main__img img
+{
+    display: block;
+    position: relative;
+    height: 95%;
+    bottom: 0px;    
+    right: 0px;
+    left: 5%;
+    top: 5%;
+    z-index: 1;
+    border-radius: 30% 0% 25% 0%;
+}
+
+.abous-us-section__main__img__frame
+{
+    top: 0px;
+    left: 0px;
+    width: 350px;
+    height: 95%;
+    position: absolute;
+    display: block;
+    border: 2px solid rgba(202, 168, 146, 1);
+    border-radius: 30% 0% 25% 0%;
+}
+
+.abous-us-section__main__info
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10px;
+    width: 100%;
+}
+
+.abous-us-section__main__info__subtitle
+{
+    font-family: 'Poppins Regular';
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: rgba(100, 100, 100, 1);
+    margin: 5px;
+}
+
+.abous-us-section__main__info__title
+{
+    font-family: 'Poppins Regular';
+    font-size: 42px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.abous-us-section__main__info__description
+{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(100, 100, 100, 1);
+    line-height: 1.5;
+    margin-bottom: 30px;
+    margin-right: 20px;
+}
+
+.abous-us-section__main__info__btn
+{
+    background-color: rgba(55, 128, 107, 1);
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    border: 0px;
+    width: 150px;
+    height: 40px;
+    border-radius: 20px 0px 20px 0px;
+}
+
+/* -------- .abous-us-section__advantage ----------*/
+.abous-us-section__advantage
+{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 400px;
+    margin-bottom: 100px;
+}
+
+.abous-us-section__advantage__info
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 90px;
+    width: 100%;
+}
+
+.abous-us-section__advantage__info__years
+{
+    font-size: 150px;
+    font-weight: 800;
+    color: white;
+    background: url('../img/years_bg.png') center;
+    background-size: cover;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    width: 200px;
+    border-radius: 10%;
+}
+
+.abous-us-section__advantage__info__years-text
+{
+    font-family: 'Poppins Regular';
+    font-size: 36px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.abous-us-section__advantage__info__btn
+{
+    background-color: rgba(55, 128, 107, 1);
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    border: 0px;
+    width: 150px;
+    height: 40px;
+    border-radius: 20px 0px 20px 0px;
+}
+
+.abous-us-section__advantage__img
+{
+    display: block;
+    position: relative;
+    height: 400px;
+}
+
+.abous-us-section__advantage img
+{
+    display: block;
+    position: relative;
+    height: 95%;
+    top: 0px;   
+    left: 0px;
+    z-index: 1;
+    border-radius: 30% 0% 25% 0%;
+}
+
+.abous-us-section__advantage__img__frame
+{
+    position: absolute;
+    display: block;
+    height: 95%;
+    bottom: 0px;
+    right: -20px;
+    width: 350px;    
+    border: 2px solid rgba(202, 168, 146, 1);
+    border-radius: 30% 0% 25% 0%;
+}
