@@ -32,7 +32,6 @@
 {
     display: block;
     position: relative;
-    margin-right: 120px;
     height: 400px;
 }
 
@@ -63,10 +62,10 @@
 
 .abous-us-section__main__info
 {
+    padding-left: 120px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-left: 10px;
     width: 100%;
 }
 
@@ -114,6 +113,7 @@
 /* -------- .abous-us-section__advantage ----------*/
 .abous-us-section__advantage
 {
+    position: relative;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -170,7 +170,7 @@
 {
     display: block;
     position: relative;
-    height: 400px;
+    height: 100%;
 }
 
 .abous-us-section__advantage img
@@ -194,4 +194,167 @@
     width: 350px;    
     border: 2px solid rgba(202, 168, 146, 1);
     border-radius: 30% 0% 25% 0%;
+}
+
+@media screen and (max-width: 1280px) /*Tab*/
+{
+    .abous-us-section
+    {
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+
+@media screen and (max-width: 1150px) /*Tab*/
+{
+    .abous-us-section__main__info
+    {
+        padding-left: 100px;
+    }
+}
+
+@media screen and (max-width: 1100px) /*Tab*/
+{
+    .abous-us-section__main__info
+    {
+        padding-left: 80px;
+    }
+}
+
+@media screen and (max-width: 1050px) /*Tab*/
+{
+    .abous-us-section__main__info
+    {
+        padding-left: 60px;
+    }
+    .abous-us-section__main__info__subtitle
+    {
+        font-size: 16px;
+    }
+
+    .abous-us-section__main__info__title
+    {
+        font-size: 36px;
+    }
+
+    .abous-us-section__main__info__description
+    {
+        font-size: 14px;
+        margin-bottom: 15px;
+        margin-right: 0px;
+    }
+}
+
+@media screen and (max-width: 900px) /*Tab*/
+{
+    .abous-us-section__main__img img
+    {
+        height: 80%;  
+        right: 0px;
+        left: 5%;
+        top: 5%;
+    }
+
+    .abous-us-section__main__img__frame
+    {
+        width: 300px;
+        height: 80%;
+    }
+}
+
+@media screen and (max-width: 800px) /*Tab*/
+{
+    .abous-us-section__main
+    {
+        flex-direction: column;
+    }
+    .abous-us-section__main__img__frame
+    {
+        width: 280px;
+        height: 80%;
+    }
+
+    .abous-us-section__main__img img
+    {
+        left: 2%;
+    }
+    .abous-us-section__main__info
+    {
+        padding-left: 0px;
+    }
+    .abous-us-section__main
+    {
+        height: auto;
+        margin-bottom: 40px;
+    }
+
+
+    .abous-us-section__advantage__info__years
+    {
+        font-size: 120px;
+    }
+
+    .abous-us-section__advantage__info__years-text
+    {
+        font-size: 28px;
+    }
+
+    .abous-us-section__advantage__info
+    {
+        padding-right: 30px;
+    }
+    .abous-us-section__advantage__img__frame
+    {
+        width: 280px;    
+    }
+}
+
+@media screen and (max-width: 700px) /*Tab*/
+{
+    .abous-us-section__advantage
+    {
+        height: 300px;
+    }
+    .abous-us-section__advantage__info
+    {
+        padding-right: 20px;
+    }
+}
+
+@media screen and (max-width: 600px) /*Tab*/
+{
+    .abous-us-section__advantage
+    {
+        height: 250px;
+    }
+    .abous-us-section__advantage__img__frame
+    {
+        width: 200px;    
+    }
+    .abous-us-section__advantage__info__years
+    {
+        font-size: 80px;
+    }
+
+    .abous-us-section__advantage__info__years-text
+    {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 550px) /*Mob*/
+{
+    .abous-us-section__advantage
+    {
+        height: auto;
+    }
+    .abous-us-section__advantage__img
+    {
+        display: none;
+    }
+    .abous-us-section__advantage
+    {
+        margin-bottom: 50px;
+    }
 }

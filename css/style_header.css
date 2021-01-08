@@ -162,11 +162,11 @@
 .header__hero__dots
 {
     position: absolute;
-    bottom: 25px;
     left: 0px;
+    top: 500px;
     width: 220px;
     height: 100px;
-    z-index: -1;
+    z-index: -10;
 }
 
 @media screen and (max-width: 1280px) /*Tab*/
@@ -181,6 +181,10 @@
 
 @media screen and (max-width: 1100px) /*Tab*/
 {
+    .header
+    {
+        padding-bottom: 40px;
+    }
     .header__hero__info
     {
         width: 50%;
@@ -283,13 +287,22 @@
     {
         font-size: 12px;
     }
+    .header__hero__dots
+    {
+        top: 400px;
+    }
 }
 
 @media screen and (max-width: 780px) /*Mobile*/
 {
+    .header__hero
+    {
+        height: 300px;
+    }
+
     .header__hero__images img
     {
-        height: 60%;
+        height: 85%;
     }
 
     .header__hero__images__frame
@@ -298,7 +311,7 @@
         top: 20px;
         right: -20px;
         width: 260px;
-        height: 60%;
+        height: 85%;
     }
     .header__hero__info__subtitle
     {
@@ -325,20 +338,25 @@
     }
 }
 
-@media screen and (max-width: 670px) /*Mobile*/
+@media screen and (max-width: 720px) /*Mobile*/
 {
+    .header__hero__dots
+    {
+        display: none;
+    }
+    .header__hero
+    {
+        height: 270px;
+    }
+    
     .header__hero__images img
     {
-        height: 50%;
+        height: 80%;
     }
 
     .header__hero__images__frame
     {
-        bottom: auto;
-        top: 20px;
-        right: -20px;
-        width: 200px;
-        height: 50%;
+        height: 80%;
     }
     .header__bar__menu__btn
     {
@@ -364,20 +382,25 @@
     }
 }
 
-@media screen and (max-width: 570px) /*Tab*/
+@media screen and (max-width: 600px) /*Tab*/
 {
+    .header__hero__info__description
+    {
+        display: none;
+    }
+
     .header__hero__images img
     {
-        height: 40%;
+        height: 60%;
     }
 
     .header__hero__images__frame
     {
         bottom: auto;
-        top: 20px;
-        right: -20px;
-        width: 150px;
-        height: 40%;
+        top: 15px;
+        right: -15px;
+        width: 180px;
+        height: 60%;
     }
 }
 
