@@ -19,6 +19,7 @@
 {
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     position: relative;
 }
@@ -54,7 +55,7 @@
 {
     position: absolute;    
     height: 70px;
-    width: 200px;
+    width: 250px;
     z-index: 0;
     top: 60px;
 }
@@ -74,3 +75,188 @@
     left: 650px;    
 }
 
+@media screen and (max-width: 1280px) /*Tab*/
+{
+    .progress
+    {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .vector-one
+    {
+        left: 120px;
+    }
+
+    .vector-two
+    {
+        left: 400px;
+    }
+
+    .vector-three
+    {
+        left: 710px;    
+    }
+}
+
+@media screen and (max-width: 1250px) /*Tab*/
+{
+    .vector-three
+    {
+        left: 650px;    
+    }
+}
+
+@media screen and (max-width: 1200px) /*Tab*/
+{
+    .vector-one
+    {
+        left: 80px;
+    }
+
+    .vector-two
+    {
+        left: 350px;
+    }
+
+    .vector-three
+    {
+        left: 640px;    
+    }
+}
+
+@media screen and (max-width: 1150px) /*Tab*/
+{
+    .vector-three
+    {
+        left: 600px;    
+    }
+}
+
+@media screen and (max-width: 1100px) /*Tab*/
+{
+    .vector-one
+    {
+        left: 70px;
+    }
+
+    .vector-two
+    {
+        left: 300px;
+    }
+
+    .vector-three
+    {
+        left: 550px;    
+    }
+}
+
+@media screen and (max-width: 1000px) /*Tab*/
+{
+    .vector-one
+    {
+        left: 60px;
+    }
+
+    .vector-two
+    {
+        left: 280px;
+    }
+
+    .vector-three
+    {
+        left: 500px;    
+    }
+}
+
+@media screen and (max-width: 950px) /*Tab*/
+{
+    .vector-one
+    {
+        left: 50px;
+    }
+
+    .vector-two
+    {
+        left: 250px;
+    }
+
+    .vector-three
+    {
+        left: 450px;    
+    }
+}
+
+@media screen and (max-width: 900px) /*Tab*/
+{
+    .vector-two
+    {
+        left: 230px;
+    }
+
+    .vector-three
+    {
+        left: 420px;    
+    }
+}
+
+@media screen and (max-width: 850px) /*Tab*/
+{
+    .vector-one
+    {
+        left: 30px;
+    }
+
+    .vector-two
+    {
+        left: 220px;
+    }
+
+    .vector-three
+    {
+        left: 390px;    
+    }
+}
+
+@media screen and (max-width: 800px) /*Tab*/
+{
+    .vector-two
+    {
+        left: 200px;
+    }
+
+    .vector-three
+    {
+        left: 360px;    
+    }
+}
+
+@media screen and (max-width: 750px) /*Tab*/
+{
+    .vector-one, .vector-two, .vector-three
+    {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 650px) /*Tab*/
+{
+    .progress
+    {
+        height: 550px;
+    }
+    .progress__numerals
+    {
+        justify-content: space-around;
+    }
+    .progress__numerals__item
+    {
+        margin-right: 50px;
+        margin-bottom: 20px;
+    }
+    .item-lower
+    {
+        margin-top: 0px;
+    }
+}
