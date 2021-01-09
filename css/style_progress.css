@@ -4,6 +4,7 @@
     width: 100%;
     background-color: rgba(248, 248, 248, 1);
     padding: 40px 15%;
+    position: relative;
 }
 
 .progress__headline
@@ -259,4 +260,22 @@
     {
         margin-top: 0px;
     }
+}
+
+.progress__before-dots, .progress__after-dots
+{
+    position: absolute;
+    width: 150px;
+    height: 100px;
+}
+.progress__before-dots
+{
+    right: 0px;
+    top: -50px;
+    z-index: -10;
+}
+
+.progress__after-dots
+{
+    left: 0px;
 }
