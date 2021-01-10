@@ -1,0 +1,137 @@
+.client-comment
+{
+    font-family: 'Poppins Medium';
+    width: 100%;
+    padding: 60px 15%;
+    height: 400px;
+}
+
+.client-comment__subtitle
+{
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 0%;
+    margin: 3px;
+    font-weight: 400;
+}
+
+.client-comment__title
+{
+    width: 100%;
+    text-align: center;
+    padding: 0%;
+    margin: 0%;
+    font-weight: 500;
+}
+
+.client-comment__btns
+{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 50px;
+}
+
+.client-comment__btns__left, .client-comment__btns__right
+{
+    height: 25px;
+    width: 25px;
+    box-shadow: -1px 3px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+    border: none;
+    margin-left: 15px;
+}
+.client-comment__btns__left
+{
+    color: #37806B;
+}
+
+.client-comment__btns__right
+{
+    background: #37806B;   
+    color: white; 
+}
+
+.client-comment__review
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.client-comment__review__item
+{
+    box-shadow: 7px 7px 30px 5px rgba(66, 96, 84, 0.15);
+    border-radius: 70px 0px;
+    height: 100%;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.client-comment__review__left-item
+{
+    margin-right: 70px;
+}
+
+.client-comment__review__item__img
+{
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+    margin-left: -60px;
+}
+
+.client-comment__review__item__text
+{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    line-height: 1.5;
+}
+
+.client-comment__review__item__text__title
+{
+    margin-bottom: 5px;
+}
+
+.client-comment__review__item__text__title__name
+{
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.client-comment__review__item__text__descr
+{
+    position: relative;
+}
+
+.review-item
+{
+    color: rgba(176, 133, 91, 1);
+    width: 30px;
+    position: absolute;
+    right: 0px;
+}
+
+@media screen and (max-width: 800px) /*Mobile*/
+{
+    .client-comment__review
+    {
+        flex-direction: column;
+    }
+
+    .client-comment__review__left-item
+    {
+        margin-right: 0px;
+    }
+
+    .client-comment__btns
+    {
+        margin: 20px 0px;
+    }
+}

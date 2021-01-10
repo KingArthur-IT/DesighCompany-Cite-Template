@@ -279,3 +279,16 @@
 {
     left: 0px;
 }
+
+@media screen and (max-width: 430px) /*Tab*/
+{
+    .progress
+    {
+        height: 800px;
+    }
+
+    .progress__after-dots
+    {
+        display: none;
+    }
+}
