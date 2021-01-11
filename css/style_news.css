@@ -1,0 +1,168 @@
+.news
+{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(248, 248, 248, 1);
+    padding: 40px 15%;
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.news__subtitle
+{
+    font-family: 'Poppins Medium';
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 0%;
+    margin: 3px;
+    font-weight: 400;
+}
+
+.news__title
+{
+    font-family: 'Poppins Medium';
+    width: 100%;
+    text-align: center;
+    padding: 0%;
+    margin: 0%;
+    font-weight: 500;
+}
+
+.news__wrapper
+{
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;    
+}
+
+.news__wrapper__item
+{
+    flex-basis: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.news__wrapper__item__figure
+{
+    position: relative;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 30px;
+    height: 250px;
+}
+
+.news__wrapper__item__figure__frame
+{
+    bottom: -15px;
+    right: -15px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: block;
+    border: 2px solid rgba(202, 168, 146, 1);
+    border-radius: 30% 0% 25% 0%;
+    z-index: 0;
+}
+
+.news__wrapper__item__figure__img
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 60px;
+    left: 0px;
+    z-index: 1;
+}
+
+.news__wrapper__item__title
+{
+    font-size: 20px;
+    margin: 0px;
+    margin-bottom: 15px;
+}
+
+.news__wrapper__item__description
+{
+    font-size: 14px;
+    margin: 0px;
+    margin-bottom: 30px;
+    line-height: 1.5;
+}
+
+.news__wrapper__item__btn
+{
+    width: 50%;
+    background-color: rgba(55, 128, 107, 1);
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+    border: 0px;
+    border-radius: 20px 0px 20px 0px;
+    padding: 15px 15px;
+}
+
+
+@media screen and (max-width: 1280px) /*Tab*/
+{
+    .news
+    {
+        padding: 40px 10%;
+    }
+}
+
+@media screen and (max-width: 1150px) /*Tab*/
+{
+    .news__wrapper__item
+    {
+        flex-basis: 45%;
+    }
+}
+
+@media screen and (max-width: 1050px) /*Tab*/
+{
+    .news__wrapper__item__btn
+    {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 650px) /*Mobile*/
+{
+    .news__wrapper
+    {
+        flex-direction: column; 
+    }
+
+    .news__wrapper__item
+    {
+        margin-bottom: 30px;
+    }
+
+    .news__wrapper__item__figure
+    {
+        width: 80%;
+    }
+
+    .news__wrapper__item__btn
+    {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 475px) /*Mobile*/
+{
+    .news__wrapper__item__figure
+    {
+        width: 100%;
+    }
+
+    .news__wrapper__item__btn
+    {
+        width: 80%;
+    }
+}

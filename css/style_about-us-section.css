@@ -357,4 +357,9 @@
     {
         margin-bottom: 50px;
     }
+    .abous-us-section__main__img img, .abous-us-section__main__img__frame
+    {
+        width: 90%;
+    }
 }
+

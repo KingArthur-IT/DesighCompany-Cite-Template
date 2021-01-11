@@ -280,7 +280,7 @@
     left: 0px;
 }
 
-@media screen and (max-width: 430px) /*Tab*/
+@media screen and (max-width: 430px) /*Mobile*/
 {
     .progress
     {
@@ -291,4 +291,9 @@
     {
         display: none;
     }
+    .progress__headline
+    {
+        font-size: 22px;
+    }
+
 }
