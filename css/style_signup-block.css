@@ -1,0 +1,155 @@
+.signup-block
+{
+    width: 100%;
+    background-color: #fff;
+    padding: 100px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+}
+.signup-block__title
+{
+    margin: 0px;
+    font-family: 'Poppins Medium';
+    font-size: 32px;
+    text-transform: uppercase;
+    font-weight: 400;
+    text-align: center;    
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.signup-block__line
+{
+    width: 300px;
+    height: 1px;
+    background-color: #C4C4C4;
+    margin-bottom: 25px;
+}
+
+.signup-block__text
+{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    width: 450px;
+    text-align: center;
+    color: rgba(100, 100, 100, 1);
+    line-height: 1.5;
+    margin: 0px; padding: 0px;
+    margin-bottom: 20px;
+}
+
+.signup-block__input-row
+{
+    
+    display: flex;
+    height: 30px;
+}
+
+.signup-block__input-row__text
+{
+    width: 350px;
+    background: #EEEEEE;
+    border-radius: 20px 0px 0px 0px;
+    border: none;
+    height: 100%;
+    font-size: 12px;
+    padding: 0px 20px;
+}
+
+.signup-block__input-row__btn
+{
+    width: 120px;
+    border: none;
+    background: #37806B;
+    border-radius: 0px 0px 20px 0px;
+    color: #fff;
+    height: 100%;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.signup-block__dots
+{
+    position: absolute;
+    left: 0px;
+    height: 100px;
+    bottom: -50px;
+}
+
+@media screen and (max-width: 580px) 
+{
+    .signup-block
+    {
+        padding: 60px 15px;
+    }
+    .signup-block__title
+    {
+        font-size: 28px;
+    }
+    .signup-block__text
+    {
+        width: 350px;
+    }
+    .signup-block__input-row__text
+    {
+        width: 300px;
+    }
+
+    .signup-block__input-row__btn
+    {
+        width: 100px;
+    }
+}
+
+@media screen and (max-width: 480px) 
+{
+    .signup-block
+    {
+        padding: 50px 15px 60px 15px;
+    }
+    .signup-block__title
+    {
+        font-size: 24px;
+    }
+    .signup-block__text
+    {
+        width: 350px;
+    }
+    .signup-block__input-row__text
+    {
+        width: 250px;
+    }
+    .signup-block__input-row__btn
+    {
+        width: 90px;
+    }
+}
+
+
+@media screen and (max-width: 380px) 
+{
+    .signup-block__line
+    {
+        width: 150px;
+    }
+    .signup-block__text
+    {
+        margin-left: 20px;
+        margin-right: 20px;
+        width: 100%;
+    }
+    .signup-block__input-row__text
+    {
+        width: 160px;
+        font-size: 10px;
+    }
+    .signup-block__input-row__btn
+    {
+        width: 80px;
+        font-size: 10px;
+    }
+}

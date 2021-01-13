@@ -6,6 +6,7 @@
     padding: 40px 15%;
     position: relative;
     font-family: 'Open Sans', sans-serif;
+    position: relative;
 }
 
 .news__subtitle
@@ -104,6 +105,7 @@
     border: 0px;
     border-radius: 20px 0px 20px 0px;
     padding: 15px 15px;
+    z-index: 1;
 }
 
 
@@ -165,4 +167,12 @@
     {
         width: 80%;
     }
+}
+
+.news__dots
+{
+    position: absolute;
+    right: 0px;
+    height: 100px;
+    bottom: -50px;
 }
