@@ -49,6 +49,7 @@
 .footer__contacts
 {
     flex-basis: 20%;
+    margin-right: 15px;
 }
 
 .footer__contacts__adress
@@ -79,4 +80,59 @@
 .footer__socials__items-row__logo:hover
 {
     background-color: #37806B;
+}
+
+@media (max-width: 1280px)
+{
+    .footer
+    {
+        padding: 50px 10%;
+    }
+}
+
+@media (max-width: 760px)
+{
+    .footer__links
+    {
+        display: none;
+    }
+}
+
+@media (max-width: 550px)
+{
+    .footer__company__logotype
+    {
+        height: 30px;
+    }
+}
+
+@media (max-width: 550px)
+{
+    .footer
+    {
+        flex-direction: column;
+    }
+    .footer__company__logotype
+    {
+        height: 50px;
+    }
+
+    .footer__company, .footer__contacts
+    {
+        margin-bottom: 20px;
+    }
+
+    .footer__links__title, .footer__contacts__title, .footer__socials__title
+    {
+        margin-bottom: 10px;
+    }
+
+    .footer__socials__items-row__logo
+    {
+        height: 35px;
+        border-radius: 50%;
+        padding: 8px;
+        background-color: #dfdddd;
+        margin-right: 10px;
+    }
 }
