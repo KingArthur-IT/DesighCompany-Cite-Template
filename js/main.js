@@ -22,7 +22,8 @@ $('.slider-panel__head__btns__right').on('click', function(){
     }//if
 });
 
-//При изменении размеров окна отменить установленный скриптом слайдера margin-left
+//При изменении размеров окна отменить 
+//установленный скриптом слайдера margin-left
 $(window).resize(function(){
     $('.slider-panel__main').css('margin-left', '0px');
 });
