@@ -60,7 +60,7 @@
 .slider-panel__head__btns
 {
     align-content: flex-end;
-    display: block;    
+    display: none;    
     bottom: 0px;
     height: 100%;
 }
@@ -86,8 +86,10 @@
 
 .slider-panel__main
 {
+    width: 100%;
     display: flex;
     justify-content: space-between;
+    transition: 0.5s ease-in-out;
 }
 
 .slider-panel__main__item
@@ -155,10 +157,24 @@
 
 @media screen and (max-width: 760px) /*Tab*/
 {
+    .slider-panel
+    {
+        overflow: hidden;
+    }
     .slider-panel__main
-{
-    flex-direction: column;
-}
+    {
+        width: 300%;
+        margin-left: auto;
+    }
+
+    .slider-panel__main__item
+    {
+        width: 100%;
+    }
+    .slider-panel__head__btns
+    {
+        display: block;
+    }
 }
 
 .slider-panel__dots
@@ -167,5 +183,7 @@
     right: 0px;
     width: 220px;
     height: 100px;
-    z-index: -1;
+    z-index:
+    
+    -1;
 }
