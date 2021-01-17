@@ -1,0 +1,59 @@
+#sign-up 
+{
+    display:none;
+    background-color: rgba(202, 168, 146, 1);
+}
+
+.signup-box
+{
+    
+    font-family: 'Poppins Regular';
+    background-color: rgba(202, 168, 146, 1);
+}
+
+.signup-box__title
+{
+    text-align: center;
+}
+
+.signup-box__form
+{
+    display: flex; 
+    flex-direction: column;
+}
+
+.signup-box__form__login
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.signup-box__form__login__namelabel
+{
+    margin-right: 5px;
+}
+
+.ignup-box__form__password
+{
+    display: flex;
+}
+
+.signup-box__form__password__emaillabel
+{
+    margin-right: 5px;
+}
+
+.signup-box__form__btn
+{
+    border: none;
+    display: block;
+    background-color: rgba(55, 128, 107, 1);
+    border-radius: 20px 0px 20px 0px;
+    margin-top: 10px;
+    width: 30%;
+    height: 40px;
+    color: #fff;
+    outline: none;
+    margin-left: auto;
+    margin-right: auto; 
+}

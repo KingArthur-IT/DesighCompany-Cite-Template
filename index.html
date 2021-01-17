@@ -13,11 +13,13 @@
     <link rel="stylesheet" href="./css/style_news.css">
     <link rel="stylesheet" href="./css/style_signup-block.css">
     <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/style_modalforms.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
     <link href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/jquery.fancybox.min.css">
     <title>Decbase</title>
 </head>
 <body>
@@ -34,7 +36,9 @@
                     <a href="" class="header__bar__menu__nav__item">Shop</a>
                     <a href="" class="header__bar__menu__nav__item">Contact</a>
                 </nav>        
-                <button class="btn header__bar__menu__btn">Sign Up</button>
+                <a href="#sign-up" rel="nosigned" class="modalbox">
+                    <button class="btn header__bar__menu__btn">Sign Up</button>
+                </a>
             </div>
         </div>
         <div class="header__hero">
@@ -53,6 +57,20 @@
                 <div class="header__hero__images__frame"></div>
             </div>
             <img src="./img/Dots.png" class="header__hero__dots" alt = "">
+        </div>
+        <div id="sign-up" class = "signup-box"><!-- hidden inline form -->
+            <h2 class = "signup-box__title">Sign Up</h2>
+            <form class="signup-box__form" name="signup" action="#" method="post">
+                <div class = "signup-box__form__login">
+                    <label for="f_name" class = "signup-box__form__login__namelabel">Login:</label>
+                    <input type="text" id="f_name" name="f_name" class = "signup-box__form__login__nameinput"> 
+                </div>
+                <div class = "signup-box__form__password">
+                    <label for="f_email" class = "signup-box__form__password__emaillabel">Password:</label>
+                    <input type="text" id="f_email" name="f_email" class="signup-box__form__password__email-input">
+                </div>                
+                <button class = "btn signup-box__form__btn">Sign Up</button>
+            </form>
         </div>
     </header>
     <section class = "slider-panel">
@@ -281,4 +299,5 @@
 </body>
 <script src="./js/jQuery.js"></script>
 <script src="./js/main.js"></script>
+<script src="./js/jquery.fancybox.min.js"></script>
 </html>
