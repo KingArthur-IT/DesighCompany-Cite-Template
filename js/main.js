@@ -28,7 +28,7 @@ $(window).resize(function(){
     $('.slider-panel__main').css('margin-left', '0px');
 });
 
-//Создание модельного окна
+//Создание модального окна
 $(document).ready(function(){
     $(".modalbox").fancybox(); //Показать модальное окно
     $(".signup-box__form").submit(function(){ return false; });
@@ -40,4 +40,20 @@ $(document).ready(function(){
             setTimeout("$.fancybox.close()", 5000);
         });
     });
+});
+
+//Заглушки на кнопки
+$('.btn').on('click', function(){
+    Swal.fire({
+        title: 'В демо шаблоне кнопки не выполняют полезной работы, но спасибо, что дошли до этого момента!',
+        icon: 'success'
+      })
+});
+
+//Заглушки на ссылки
+$('.link-lockup').on('click', function(){
+    Swal.fire({
+        title: 'В демо шаблоне ссылки не ведут на другие страницы, но спасибо, что дошли до этого момента!',
+        icon: 'success'
+      })
 });
